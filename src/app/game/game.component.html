@@ -1,0 +1,261 @@
+<div class="bg-dark min-vh-100 d-flex flex-column justify-content-between overflow-hidden">
+
+    <div class="bg-dark text-white text-center py-4">
+        <h1><strong>Wordle</strong></h1>
+    </div>
+
+    <div class="container mt-3 mb-5">
+        <div class="col">
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+            <div class="row justify-content-center text-white text-capitalize text-center fw-bold">
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+                <div class="col-1 p-2 fs-1 border bg-secondary rounded m-1 border border-2 border-secondary fixed-size">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Keyboard Section -->
+    <div class="mb-5">
+        <!-- First Row of Letters -->
+        <div class="row justify-content-center g-1 mb-2">
+            <div class="col-auto">
+                <button id="q" (click)="insertLetter('q')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">q</button>
+            </div>
+            <div class="col-auto">
+                <button id="w" (click)="insertLetter('w')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">w</button>
+            </div>
+            <div class="col-auto">
+                <button id="e" (click)="insertLetter('e')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">e</button>
+            </div>
+            <div class="col-auto">
+                <button id="r" (click)="insertLetter('r')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">r</button>
+            </div>
+            <div class="col-auto">
+                <button id="t" (click)="insertLetter('t')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">t</button>
+            </div>
+            <div class="col-auto">
+                <button id="y" (click)="insertLetter('y')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">y</button>
+            </div>
+            <div class="col-auto">
+                <button id="u" (click)="insertLetter('u')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">u</button>
+            </div>
+            <div class="col-auto">
+                <button id="i" (click)="insertLetter('i')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">i</button>
+            </div>
+            <div class="col-auto">
+                <button id="o" (click)="insertLetter('o')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">o</button>
+            </div>
+            <div class="col-auto">
+                <button id="p" (click)="insertLetter('p')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">p</button>
+            </div>
+        </div>
+
+        <!-- Second Row of Letters -->
+        <div class="row justify-content-center g-1 mb-2">
+            <div class="col-auto">
+                <button id="a" (click)="insertLetter('a')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">a</button>
+            </div>
+            <div class="col-auto">
+                <button id="s" (click)="insertLetter('s')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">s</button>
+            </div>
+            <div class="col-auto">
+                <button id="d" (click)="insertLetter('d')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">d</button>
+            </div>
+            <div class="col-auto">
+                <button id="f" (click)="insertLetter('f')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">f</button>
+            </div>
+            <div class="col-auto">
+                <button id="g" (click)="insertLetter('g')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">g</button>
+            </div>
+            <div class="col-auto">
+                <button id="h" (click)="insertLetter('h')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">h</button>
+            </div>
+            <div class="col-auto">
+                <button id="j" (click)="insertLetter('j')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">j</button>
+            </div>
+            <div class="col-auto">
+                <button id="k" (click)="insertLetter('k')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">k</button>
+            </div>
+            <div class="col-auto">
+                <button id="l" (click)="insertLetter('l')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">l</button>
+            </div>
+        </div>
+
+        <!-- Third Row of Letters -->
+        <div class="row justify-content-center g-1">
+            <div class="col-auto">
+                <button (click)="enterAnswer()"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-6 d-flex align-items-center justify-content-center"
+                    style="width: 70px; height: 50px;">enter</button>
+            </div>
+            <div class="col-auto">
+                <button id="z" (click)="insertLetter('z')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">z</button>
+            </div>
+            <div class="col-auto">
+                <button id="x" (click)="insertLetter('x')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">x</button>
+            </div>
+            <div class="col-auto">
+                <button id="c" (click)="insertLetter('c')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">c</button>
+            </div>
+            <div class="col-auto">
+                <button id="v" (click)="insertLetter('v')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">v</button>
+            </div>
+            <div class="col-auto">
+                <button id="b" (click)="insertLetter('b')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">b</button>
+            </div>
+            <div class="col-auto">
+                <button id="n" (click)="insertLetter('n')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">n</button>
+            </div>
+            <div class="col-auto">
+                <button id="m" (click)="insertLetter('m')"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 50px; height: 50px;">m</button>
+            </div>
+            <div class="col-auto">
+                <button (click)="deleteLetter()"
+                    class="text-capitalize btn btn-secondary p-2 fw-bold fs-5 d-flex align-items-center justify-content-center"
+                    style="width: 60px; height: 50px;">
+                    <i class="bi bi-backspace-fill"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Difficulty Selection -->
+    <div class="container">
+        <div class="row justify-content-center text-white text-capitalize text-center fw-bold mt-4 mb-4">
+            <div class="col text-center">
+                <div class="btn-group" role="group" aria-label="Difficulty Selection">
+                    <button (click)="confirmChangeMessage('easy')" type="button" class="btn btn-light">Easy</button>
+                    <button (click)="confirmChangeMessage('medium')" type="button" class="btn btn-light">Medium</button>
+                    <button (click)="confirmChangeMessage('hard')" type="button" class="btn btn-light">Hard</button>
+                </div>
+                <button (click)="revealAnswer()" class="text-capitalize btn btn-light ms-3">
+                    <i class="bi bi-lightbulb-fill"></i> answer
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>

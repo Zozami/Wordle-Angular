@@ -1,0 +1,14 @@
+.fixed-size {
+    width: 80px;
+    height: 75px;
+}
+
+
+.bg-active {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
