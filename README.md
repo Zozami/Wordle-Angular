@@ -1,31 +1,20 @@
-# Project
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
 
-## Development server
+شرح الموقع:
+الموقع عبارة عن لعبة تفاعلية تُدعى "Wordle"، حيث يتحدى اللاعبون أنفسهم لتخمين كلمة مكونة من خمس حروف خلال عدد محدود من المحاولات. إليكم كيفية عمل اللعبة:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+    آلية اللعب:
+        يبدأ اللاعب بتخمين كلمة مكونة من خمس حروف. بعد إدخال الكلمة، يتم عرضها في صف مخصص على الشاشة.
+        يتم تلوين كل حرف في الكلمة بعد كل تخمين بناءً على مدى قربه من الكلمة الصحيحة:
+            المربعات الخضراء تشير إلى أن الحرف في مكانه الصحيح.
+            المربعات الصفراء تعني أن الحرف موجود في الكلمة ولكن في مكان آخر.
+            المربعات الرمادية تشير إلى أن الحرف غير موجود في الكلمة نهائيًا.
+    الواجهة والتصميم:
+        يتميز الموقع بتصميم بسيط وجذاب يتناسب مع تجربة المستخدم، مع واجهة مستخدم تفاعلية تجعل اللعب ممتعًا.
+        تحتوي اللعبة على لوحة مفاتيح افتراضية تُتيح للاعبين إدخال الحروف بسهولة.
+    خيارات اللعبة:
+        يتيح الموقع للاعبين اختيار مستوى الصعوبة (سهل، متوسط، صعب) مما يزيد من تحدي اللعبة.
+        كما يحتوي الموقع على زر للكشف عن الكلمة الصحيحة في حال احتاج اللاعب إلى المساعدة.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# -Angular-Bootcamp-Wordle
-# -Angular-Bootcamp-Wordle
-# Angular-Bootcamp-Wordle
-# Wordle-Angular
+يمكنكم زيارة الموقع على الرابط التالي: https://angular-bootcamp-wordle.netlify.app
+إذا كان هناك أي استفسار أو ملاحظات، لا تترددوا في التواصل معي.
